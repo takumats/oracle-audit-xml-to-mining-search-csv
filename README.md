@@ -28,4 +28,5 @@ python3 oracle_audit_xml_to_mscsv.py <AUDIT_LOG> <OUTPUT_CSV_FILE_NAME>
 ```
 
 ## 制限事項
+* 同一セッションの最初のSQL実行日時をセッションの開始日時、最後のSQL実行日時をセッションの終了日時としています
 * 再起動などをしてセッションIDが重複している場合異なるセッションと紐づけらることがあります
